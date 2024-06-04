@@ -1,0 +1,32 @@
+name: Create and Deploy Image
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy-example:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+
+      - name: Install dependencies
+        run: |
+          npm i
+          npx playwright install --with-deps webkit
+
+      - name: Build example
+        run: npm run screenshot
+
+      - name: Add no jekyll
+        run: touch dist/.nojekyll
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: dist

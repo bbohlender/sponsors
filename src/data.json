@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Garbo Succus",
+    "logo": "garbo-succus.png",
+    "description": "Garbo Succus is the studio behind the Probability board game simulator."
+  },
+  {
+    "name": "Needle Tools",
+    "logo": "needle.png",
+    "description": "Needle Tools provides Tailor-Made Tools for Creators and have sponsored Uikit for vanilla threejs."
+  },
+  {
+    "name": "Cyango",
+    "logo": "cyango.png",
+    "description": "Cyango allows its users to explore the power of XR, VR & AR with Storytelling."
+  },
+  {
+    "name": "Togga",
+    "logo": "togga.svg",
+    "description": "Togga allows to optimize your legal practice in a infinite space."
+  },
+  {
+    "name": "aro.work",
+    "logo": "aro.png",
+    "description": "ARO.WORK combines spatial computing with multiple computer and multiple OS. All built on the open web!"
+  }
+]
