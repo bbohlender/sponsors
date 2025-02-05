@@ -17,21 +17,11 @@
   {
     "name": "Cyango",
     "logo": "cyango.png",
-    "description": "Cyango allows its users to explore the power of XR, VR & AR with Storytelling."
-  },
-  {
-    "name": "Togga",
-    "logo": "togga.svg",
-    "description": "Togga allows to optimize your legal practice in a infinite space."
+    "description": "All-in-one XR website and experiences platform."
   },
   {
     "name": "InSpatial",
     "logo": "in-spatial.png",
     "description": "InSpatial is a no-code/low-code spatial computing platform as a service for developing AR/VR/MR experiences."
-  },
-  {
-    "name": "aro.work",
-    "logo": "aro.png",
-    "description": "ARO.WORK combines spatial computing with multiple computer and multiple OS. All built on the open web!"
   }
 ]
