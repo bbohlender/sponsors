@@ -23,5 +23,10 @@
     "name": "InSpatial",
     "logo": "in-spatial.png",
     "description": "InSpatial is a no-code/low-code spatial computing platform as a service for developing AR/VR/MR experiences."
+  },
+  {
+    "name": "Mozilla",
+    "logo": "mozilla.png",
+    "description": "Mozilla is working to put control of the internet back in the hands of the people using it."
   }
 ]
